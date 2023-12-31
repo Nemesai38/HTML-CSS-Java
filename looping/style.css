@@ -1,0 +1,20 @@
+html {
+    width: 100%;
+    height: inherit;
+    background: #ddd;
+}
+
+canvas {
+    display: block;
+    /*border: 2px solid black;*/
+}
+
+body {
+    margin: 20px;
+}
+
+button {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
