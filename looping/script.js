@@ -15,7 +15,7 @@ function draw() {
     ctx.clearRect(0, 0, canvas.width, canvas.height);
     for (let i = 0; i < 200; i++) {
         ctx.beginPath();
-        ctx.fillStyle = "rgb(255 0 0 / 50%)";
+        ctx.fillStyle = "#c26c13";
         ctx.arc(
             random(canvas.width),
             random(canvas.height),

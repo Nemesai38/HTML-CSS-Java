@@ -1,3 +1,6 @@
+
+
+
 // Variables
 
 const addTask = document.getElementById('add-task');
@@ -40,5 +43,8 @@ addTask.addEventListener('click', function() {
         let target = e.target;
         target.parentElement.parentElement.remove();
     })
-    
+    console.log(checkButton.getAttribute('id'));
 })
+
+
+
